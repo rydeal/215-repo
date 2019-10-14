@@ -1,0 +1,34 @@
+nav {
+    width: 980px;
+    height: 92px;
+    margin: 0 auto;
+    border-bottom: 2px solid $site-white;
+    //makes the logo aligned vertically and spaced correctly
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        width: 96px;
+        height: 42px;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-transform: lowercase;
+        a {
+            color: $site-white;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        span {
+            margin: 0 10px;
+            color: $site-blue;
+            font-size: 28px;
+        }
+    }
+
+}
