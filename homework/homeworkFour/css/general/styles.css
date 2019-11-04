@@ -14,7 +14,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto', sans-serif; }
 
 .hero-wrapper {
-  max-width: 100%;
+  width: 100%;
   height: 500px; }
   .hero-wrapper .hero {
     height: 100%;
@@ -37,26 +37,30 @@ h1, h2, h3, h4, h5, h6 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat; }
-  .hero-wrapper .callout {
-    width: 416px;
-    min-height: 200px;
-    margin-top: 150px;
-    margin-bottom: 120px;
-    text-align: center; }
-    .hero-wrapper .callout .desc {
-      color: #FFF;
-      margin-bottom: 55px;
-      font-size: 18px; }
-    .hero-wrapper .callout .site-button {
-      padding: 10px 25px;
-      background-color: #79ADDC;
-      text-decoration: none;
-      color: #FFF;
-      width: 121.62px;
-      height: 40.04px; }
-    .hero-wrapper .callout .comp-name {
-      font-size: 50px;
-      color: #FFF; }
+    .hero-wrapper .hero .callout {
+      width: 416px;
+      min-height: 200px;
+      margin-top: 150px;
+      margin-bottom: 120px;
+      text-align: center; }
+      .hero-wrapper .hero .callout .desc {
+        color: #FFF;
+        margin-bottom: 55px;
+        font-size: 18px; }
+      .hero-wrapper .hero .callout .site-button {
+        padding: 10px 25px;
+        background-color: #79ADDC;
+        text-decoration: none;
+        color: #FFF;
+        width: 121.62px;
+        height: 40.04px; }
+      .hero-wrapper .hero .callout .comp-name {
+        font-size: 50px;
+        color: #FFF; }
+
+@media (max-width: 1280px) {
+  .hero-wrapper .hero {
+    width: 100%; } }
 
 nav {
   position: absolute;
@@ -232,14 +236,15 @@ nav {
 @media (max-width: 1092px) {
   .plans .travel-plan {
     margin: auto;
-    width: 50%;
+    width: 100%;
     margin-bottom: 30px; }
   .booking-form {
     margin-top: 500px; }
     .booking-form .form-title {
       font-size: 100%; }
     .booking-form input {
-      float: left; }
+      float: left;
+      width: 45%; }
     .booking-form .form-mobile {
       width: 100%; }
     .booking-form .checkin {

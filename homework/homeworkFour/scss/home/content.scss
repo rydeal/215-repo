@@ -1,0 +1,191 @@
+.plans {
+    height: 500px;
+    margin-bottom: 100px;
+    .travel-plan {
+        width: $card-width;
+        height: $card-height;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        text-align: center;
+        display: inline-block;
+        .card-title {
+            color: $site-white;
+            font-family: $title-fonts;
+            font-size: $card-title-size;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        .card-price {
+            color: $site-white;
+            margin-bottom: 60px;
+        }
+    }
+
+    .tour-01 {
+        background-image: linear-gradient(
+            to right, 
+            rgba($site-black, .4), 
+            rgba($site-black, .4)
+           ),
+           url("../../images/tour-01.jpg");
+    }
+
+    .tour-02 {
+        background-image: linear-gradient(
+            to right, 
+            rgba($site-black, .4), 
+            rgba($site-black, .4)
+           ),
+           url("../../images/tour-02.jpg");
+        
+        margin: 0 35px;
+    }
+
+    .tour-03 {
+        background-image: linear-gradient(
+            to right, 
+            rgba($site-black, .4), 
+            rgba($site-black, .4)
+           ),
+           url("../../images/tour-03.jpg");
+    }
+
+    .travel-button {
+        color: $site-white;
+        font-family: $desc-fonts;
+        font-size: $button-font-size;
+        width: $round-button-width;
+        height: $round-button-height;
+        border-radius: 10px;
+        padding: 10px 25px;
+        background-color: $site-blue;
+        text-decoration: none;
+    }
+}
+
+.booking-form {
+    width: 716px;
+    align-content: center;
+    font-family: $desc-fonts;
+
+    ::-webkit-input-placeholder {
+        font-family: $desc-fonts;
+        font-size: $form-font-size;
+    }
+
+    input {
+        padding: 10px;
+        width: 45%;
+        margin-right: 15px;
+        margin-bottom: 13px;
+    }
+
+    label {
+        margin-right: 11px;
+    }
+
+    label[for=checkin] {
+        margin-right: 24px;
+    }
+
+    .form-dates {
+        width: 75%;
+        margin-left: 20px;
+        background-image: url("../../images/calendar-alt-regular.svg");
+        background-position: 98% 50%;
+        background-repeat: no-repeat;
+        background-size: 1.5em;
+        
+    }
+
+    input[type=submit] {
+        margin-top: 10px;
+        width: 92.5%;
+        font-family: $desc-fonts;
+        text-transform: uppercase;
+        background-color: $site-blue;
+        color: $site-white;
+        font-size: $button-font-size;
+        border-radius: 15px;
+        height: 60.59px;
+    }
+
+    select {
+        width: 10%;
+        height: 58px;
+        font-family: $desc-fonts;
+        margin: 0 43px;
+        text-indent: 33%;
+    }
+
+    textarea[name=message] {
+        margin-top: 5%;
+        width: 92.5%;
+        height: 192px;
+    }
+
+    textarea::-webkit-input-placeholder {
+        line-height: 2.5em;
+        text-indent: 2%;
+    }
+}
+
+.form-title {
+    font-size: $title-font-size;
+}
+
+@media (max-width: 1092px) {
+    .plans {
+        .travel-plan {
+            margin: auto;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+
+    .booking-form {
+        margin-top: 500px;
+        .form-title {
+            font-size: 100%;
+        }
+
+        input {
+            float: left;
+            width: 45%;
+        }
+
+        .form-mobile {
+            width: 100%;
+        }
+
+        .checkin {
+            width: 100%;
+            margin-bottom: 10px;
+            clear: both;
+        }
+
+        .checkout {
+            width: 100%;
+            margin-bottom: 50px;
+            clear: both;
+        }
+
+        textarea[name=message] {
+            margin-top: 5%;
+            margin-left: 20%;
+            width: 50%;
+            height: 192px;
+        }
+
+        input[type=submit] {
+            margin-top: 5%;
+            margin-left: 20%;
+            width: 50%;
+            height: 50%;
+        }
+    }
+
+}
