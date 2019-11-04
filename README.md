@@ -6,7 +6,7 @@
 
 ### I made the file heirarchy for the entire Travel Fly website and added some variables.
 
-[This is homework three, which is the completed Travel Fly home page.](https://rydeal.github.io/215-repo/homework/homeworkThree/index.html)
+[This is homework three, which is the completed Travel Fly home page.](https://rydeal.github.io/215-repo/homework/homeworkThree/)
 
 ### I added the travel plan cards, the form, and the footer.
 

@@ -78,7 +78,7 @@
 
     input {
         padding: 10px;
-        width: 45%;
+        width: 322px;
         margin-right: 15px;
         margin-bottom: 13px;
     }
@@ -135,56 +135,4 @@
 
 .form-title {
     font-size: $title-font-size;
-}
-
-@media (max-width: 1092px) {
-    .plans {
-        .travel-plan {
-            margin: auto;
-            width: 50%;
-            margin-bottom: 30px;
-        }
-    }
-
-    .booking-form {
-        margin-top: 500px;
-        .form-title {
-            font-size: 100%;
-        }
-
-        input {
-            float: left;
-        }
-
-        .form-mobile {
-            width: 100%;
-        }
-
-        .checkin {
-            width: 100%;
-            margin-bottom: 10px;
-            clear: both;
-        }
-
-        .checkout {
-            width: 100%;
-            margin-bottom: 50px;
-            clear: both;
-        }
-
-        textarea[name=message] {
-            margin-top: 5%;
-            margin-left: 20%;
-            width: 50%;
-            height: 192px;
-        }
-
-        input[type=submit] {
-            margin-top: 5%;
-            margin-left: 20%;
-            width: 50%;
-            height: 50%;
-        }
-    }
-
 }
