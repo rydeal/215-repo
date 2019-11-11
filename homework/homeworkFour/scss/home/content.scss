@@ -76,6 +76,10 @@
         font-size: $form-font-size;
     }
 
+    .people-mobile {
+        display: none;
+    }
+
     input {
         padding: 10px;
         width: 45%;
@@ -131,6 +135,7 @@
         line-height: 2.5em;
         text-indent: 2%;
     }
+
 }
 
 .form-title {
@@ -148,8 +153,28 @@
 
     .booking-form {
         margin-top: 500px;
-        .form-title {
+        h1 {
             font-size: 100%;
+            text-align: center;
+            margin-right: 75px;
+        }
+
+        .people-mobile {
+            display: flex;
+            margin-left: 70px;
+            -webkit-transform: scale(.85, .85);
+            transform: scale(.85, .85);
+            -ms-transform: scale(.85, .85);
+
+            label {
+                margin-left: 35px;
+            }
+
+
+        }
+
+        .people-desktop {
+            display: none;
         }
 
         input {
@@ -158,19 +183,22 @@
         }
 
         .form-mobile {
-            width: 100%;
+            width: 25%;
+            clear: left;
+            margin-left: 250px;
         }
 
         .checkin {
-            width: 100%;
+            width: 25%;
             margin-bottom: 10px;
             clear: both;
+            margin-left: 250px;
         }
 
         .checkout {
-            width: 100%;
-            margin-bottom: 50px;
-            clear: both;
+            width: 25%;
+            margin-bottom: 80px;
+            margin-left: 250px;
         }
 
         textarea[name=message] {
@@ -186,6 +214,17 @@
             width: 50%;
             height: 50%;
         }
+
+        select {
+            width: 20%;
+            clear: both;
+            margin-bottom: 25px;
+        }
+
+        .form-title {
+            margin-left: 50px;
+        }
+
     }
 
 }

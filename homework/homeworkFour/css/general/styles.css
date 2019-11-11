@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
         width: 121.62px;
         height: 40.04px; }
       .hero-wrapper .hero .callout .comp-name {
-        font-size: 50px;
+        font-size: 125%;
         color: #FFF; }
 
 @media (max-width: 1280px) {
@@ -190,6 +190,8 @@ nav {
   .booking-form ::-webkit-input-placeholder {
     font-family: "Lato", sans-serif;
     font-size: 125%; }
+  .booking-form .people-mobile {
+    display: none; }
   .booking-form input {
     padding: 10px;
     width: 45%;
@@ -231,7 +233,7 @@ nav {
     text-indent: 2%; }
 
 .form-title {
-  font-size: 50px; }
+  font-size: 125%; }
 
 @media (max-width: 1092px) {
   .plans .travel-plan {
@@ -240,21 +242,38 @@ nav {
     margin-bottom: 30px; }
   .booking-form {
     margin-top: 500px; }
-    .booking-form .form-title {
-      font-size: 100%; }
+    .booking-form h1 {
+      font-size: 100%;
+      text-align: center;
+      margin-right: 75px; }
+    .booking-form .people-mobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 70px;
+      -webkit-transform: scale(0.85, 0.85);
+      transform: scale(0.85, 0.85);
+      -ms-transform: scale(0.85, 0.85); }
+      .booking-form .people-mobile label {
+        margin-left: 35px; }
+    .booking-form .people-desktop {
+      display: none; }
     .booking-form input {
       float: left;
       width: 45%; }
     .booking-form .form-mobile {
-      width: 100%; }
+      width: 25%;
+      clear: left;
+      margin-left: 250px; }
     .booking-form .checkin {
-      width: 100%;
+      width: 25%;
       margin-bottom: 10px;
-      clear: both; }
+      clear: both;
+      margin-left: 250px; }
     .booking-form .checkout {
-      width: 100%;
-      margin-bottom: 50px;
-      clear: both; }
+      width: 25%;
+      margin-bottom: 80px;
+      margin-left: 250px; }
     .booking-form textarea[name=message] {
       margin-top: 5%;
       margin-left: 20%;
@@ -264,7 +283,13 @@ nav {
       margin-top: 5%;
       margin-left: 20%;
       width: 50%;
-      height: 50%; } }
+      height: 50%; }
+    .booking-form select {
+      width: 20%;
+      clear: both;
+      margin-bottom: 25px; }
+    .booking-form .form-title {
+      margin-left: 50px; } }
 
 .footer {
   width: 100%;
