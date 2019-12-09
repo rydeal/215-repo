@@ -1,0 +1,90 @@
+.offers {
+    margin-top: 150px;
+    width: 85%;
+
+    .special-header {
+        font-size: 30px;
+    }
+
+    .special-line {
+        width: 15%;
+        height: 4px;
+        background-color: $site-black;
+        margin-top: .2em;
+        margin-bottom: 34px;
+    }
+
+    .place-line {
+        width: 14%;
+        height: 4px;
+        background-color: $site-black;
+        margin-top: -.5em;
+        margin-bottom: 22px;
+    }
+
+    .place-line2 {
+        width: 15%;
+        height: 4px;
+        background-color: $site-black;
+        margin-top: -.5em;
+        margin-bottom: 22px;
+    }
+
+    .special-image1 {
+        width: $offer-width;
+        height: $offer-height;
+        background-image:
+           url("../../images/special-offer-01.jpg");
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       float: left;
+       margin-right: 20px;
+    }
+
+    .special-image2 {
+        width: $offer-width;
+        height: $offer-height;
+        background-image:
+           url("../../images/special-offer-02.jpg");
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       float: left;
+       margin-right: 20px;
+    }
+
+    .special-place {
+        font-size: 28px;
+    }
+
+    .special-text {
+        font-size: 14px;
+        width: 42%;
+        margin-bottom: 50px;
+    }
+
+    .discount {
+        float: right;
+        margin-right: 50%;
+        color: $discount-color;
+        font-size: 18px;
+    }
+
+    .special-offer{
+        margin-bottom: 100px;
+    }
+    .special-button {
+        font-family: $desc-fonts;
+        font-size: $button-font-size;
+        width: 100px;
+        height: 30px;
+        border-radius: 18px;
+        padding: 8px 20px;
+        background-color: $site-blue;
+        color: $site-white;
+        margin-right: 100px;
+        font-size: 45%;
+        text-decoration: none;
+    }
+}

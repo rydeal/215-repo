@@ -1,0 +1,109 @@
+.blog {
+    width: 1000px;
+    margin-top: 150px;
+    
+    .blog-header {
+        font-size: 30px;
+    }
+
+    .blog-line {
+        width: 9%;
+        height: 4px;
+        background-color: $site-black;
+        margin-top: .1em;
+        margin-bottom: 30px;
+    }
+
+    .date {
+        height: 100%;
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+        float: left;
+    
+        .blog-date {
+            width: 60px;
+          height: 60px;
+          background-color: $site-blue;
+          color: $site-white;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+            .day {
+            font-size: 22px;
+            margin-bottom: 0;
+            }
+          .month {
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            }
+        }
+    }
+
+    .date2 {
+        height: 100%;
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-right: 100px;
+        float: left;
+    
+        .blog-date {
+            width: 60px;
+          height: 60px;
+          background-color: $site-blue;
+          color: $site-white;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+            .day {
+            font-size: 22px;
+            margin-bottom: 0;
+            }
+          .month {
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 0;
+            }
+        }
+    }
+
+    .blog-pic {
+        width: $blog-pic-width;
+        height: $blog-pic-height;
+        background-image:
+           url("../../images/blog.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-right: 20px;
+        margin-top: -60px;
+        float: right;
+    }
+
+    .blog-words {
+        margin-top: 320px;
+        margin-left: 90px;
+        height: 100px;
+    }
+
+    .blog-sub {
+        color: $site-black;
+        font-size: 12px;
+        margin-top: 20px;
+        height: 100px;
+
+    }
+
+    .blog-text {
+        margin-top: 20px;
+        color: $site-blue;
+        font-size: 12px;
+        width: 38%;
+    }
+}

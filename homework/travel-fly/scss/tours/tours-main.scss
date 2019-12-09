@@ -1,0 +1,52 @@
+.tours-main {
+    .tours-header {
+        // making the text uppercase for future proofing
+        text-transform: uppercase;
+        // setting the width and height of the tours header
+        width: $tours-width;
+        height: $tours-height;
+        // spacing the tours header
+        margin-top: 150px;
+        margin-bottom: 50px;
+        // centering
+         background-image: linear-gradient(
+             to right, 
+             rgba($site-black, .4), 
+             rgba($site-black, .4)
+            ),
+            url("../../images/tour/tours-header.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .tours-headt {
+            color: $site-white;
+            font-size: 60px;
+            // setting the position of the tours header text in the div
+            position: absolute;
+            top: 30%;
+            left: 43.5%;
+        }
+    }
+
+    .travel {
+        margin-left: 100px;
+
+        .row {
+            float: left;
+            clear: left;
+            margin-bottom: 100px;
+        }
+    }
+}
+
+@media (max-width: 1092px) {
+    .plans {
+        margin-left: 20%;
+        width: 100%;
+        .travel-plan {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+}

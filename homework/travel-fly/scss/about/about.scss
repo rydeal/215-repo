@@ -1,0 +1,67 @@
+.about {
+    // adjusting the distance between the nav and the about "callout" as well as how much the section stretches
+    margin-top: 175px;
+    margin-bottom: 100px;
+    width: 85%;
+
+    // making the size of the about "callout" look right
+    h1 {
+        font-size: 2.6em;
+        text-transform: uppercase;
+    }
+
+    // styling the line underneath about
+    hr.about-line {
+        width: 11.5%;
+        height: 4px;
+        background-color: $site-black;
+        margin-top: -.75em;
+        margin-bottom: 20px;
+    }
+
+    .about-desc{
+        font-size: 16px;
+        margin-bottom: 75px;
+    }
+
+    img {
+        float: left;
+        margin-right: 15px;
+    }
+
+    .c-quotes {
+        font-size: 16px;
+        width: 33.5%;
+        float: left;
+        font-style: italic;
+    }
+
+    .c-name {
+        float: left;
+        margin-top: 120px;
+        margin-left: -120px;
+        color: $site-blue;
+    }
+
+    .client {
+        float: left;
+        clear: left;
+        margin-bottom: 50px;
+    }
+
+    hr.c-line {
+        width: 16%;
+        height: 4px;
+        background-color: $site-black;
+        margin-top: -.75em;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 1.73em;
+    }
+
+
+
+}

@@ -1,0 +1,100 @@
+.hero-wrapper {
+    width: 100%;
+    height: 500px;
+
+    .hero {
+        height: 100%;
+        .black-bar {
+            border-bottom: 2px solid $site-black;
+          }
+          .white-bar {
+            border-bottom: 2px solid $site-white;
+          }
+          //centers the callout
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include center-content();
+         background-image: linear-gradient(
+             to right, 
+             rgba($site-black, .4), 
+             rgba($site-black, .4)
+            ),
+            url("../../images/hero.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        //margin: 0 auto;
+    
+        .callout {
+            width: 416px;
+            min-height: 200px;
+            margin-top: 150px;
+            margin-bottom: 120px;
+            text-align: center;
+
+            .desc {
+                color: $site-white;
+                margin-bottom: 55px;
+                font-size: $desc-font-size;
+            }
+            
+            .site-button {
+                padding: 10px 25px;
+                background-color: $site-blue;
+                text-decoration: none;
+                color: $site-white;
+                width: $square-button-width;
+                height: $square-button-height;
+            }
+
+            .comp-name {
+                font-size: $title-font-size;
+                color: $site-white;
+            }
+
+        }
+    }
+}
+
+.wrapper {
+    width: 100%;
+    height: 500px;
+    color: $site-black;
+
+    a {
+        color: $site-black;
+    }
+
+    .hero {
+        height: 100%;
+        .black-bar {
+            border-bottom: 2px solid $site-black;
+          }
+          .white-bar {
+            border-bottom: 2px solid $site-white;
+          }
+          //centers the callout
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include center-content();
+    
+    }
+}
+
+@media (max-width: 1280px) {
+    .wrapper {
+        .hero {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1280px) {
+    .hero-wrapper {
+        .hero {
+            width: 100%;
+        }
+    }
+}

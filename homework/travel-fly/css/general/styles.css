@@ -1,0 +1,1217 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 16px;
+  font-family: 'Roboto', sans-serif; }
+
+.hero-wrapper {
+  width: 100%;
+  height: 500px; }
+  .hero-wrapper .hero {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/hero.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/hero.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/hero.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/hero.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .hero-wrapper .hero .black-bar {
+      border-bottom: 2px solid #000; }
+    .hero-wrapper .hero .white-bar {
+      border-bottom: 2px solid #FFF; }
+    .hero-wrapper .hero .callout {
+      width: 416px;
+      min-height: 200px;
+      margin-top: 150px;
+      margin-bottom: 120px;
+      text-align: center; }
+      .hero-wrapper .hero .callout .desc {
+        color: #FFF;
+        margin-bottom: 55px;
+        font-size: 18px; }
+      .hero-wrapper .hero .callout .site-button {
+        padding: 10px 25px;
+        background-color: #79ADDC;
+        text-decoration: none;
+        color: #FFF;
+        width: 121.62px;
+        height: 40.04px; }
+      .hero-wrapper .hero .callout .comp-name {
+        font-size: 125%;
+        color: #FFF; }
+
+.wrapper {
+  width: 100%;
+  height: 500px;
+  color: #000; }
+  .wrapper a {
+    color: #000; }
+  .wrapper .hero {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 1280px;
+    margin: 0 auto; }
+    .wrapper .hero .black-bar {
+      border-bottom: 2px solid #000; }
+    .wrapper .hero .white-bar {
+      border-bottom: 2px solid #FFF; }
+
+@media (max-width: 1280px) {
+  .wrapper .hero {
+    width: 100%; } }
+
+@media (max-width: 1280px) {
+  .hero-wrapper .hero {
+    width: 100%; } }
+
+.hero-wrapper nav {
+  position: absolute;
+  z-index: 99;
+  width: 80%;
+  height: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .hero-wrapper nav .logo {
+    width: 96px;
+    height: 42px; }
+  .hero-wrapper nav .link-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .hero-wrapper nav .link-wrap .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-transform: lowercase; }
+      .hero-wrapper nav .link-wrap .links a {
+        color: #FFF;
+        font-size: 15px;
+        text-decoration: none; }
+      .hero-wrapper nav .link-wrap .links span {
+        margin: 0 10px;
+        color: #79ADDC;
+        font-size: 28px; }
+    .hero-wrapper nav .link-wrap .navicon {
+      display: none;
+      color: #FFF;
+      font-size: 120%;
+      cursor: pointer; }
+
+@media (max-width: 768px) {
+  .hero-wrapper nav .link-wrap:hover > .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .hero-wrapper nav .link-wrap .links {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 270px;
+    width: 200px;
+    margin-right: -30px; }
+    .hero-wrapper nav .link-wrap .links a {
+      margin-bottom: 20px; }
+    .hero-wrapper nav .link-wrap .links span {
+      display: none; }
+  .hero-wrapper nav .link-wrap .navicon {
+    display: block; } }
+
+.wrapper nav {
+  position: absolute;
+  z-index: 99;
+  width: 80%;
+  height: 92px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .wrapper nav .logo {
+    width: 96px;
+    height: 42px; }
+  .wrapper nav .link-wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .wrapper nav .link-wrap .links {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-transform: lowercase; }
+      .wrapper nav .link-wrap .links a {
+        color: #000;
+        font-size: 15px;
+        text-decoration: none; }
+      .wrapper nav .link-wrap .links span {
+        margin: 0 10px;
+        color: #79ADDC;
+        font-size: 28px; }
+    .wrapper nav .link-wrap .navicon {
+      display: none;
+      color: #000;
+      font-size: 120%;
+      cursor: pointer; }
+
+@media (max-width: 768px) {
+  .wrapper nav .link-wrap:hover > .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .wrapper nav .link-wrap .links {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 270px;
+    width: 200px;
+    margin-right: -30px; }
+    .wrapper nav .link-wrap .links a {
+      margin-bottom: 20px; }
+    .wrapper nav .link-wrap .links span {
+      display: none; }
+  .wrapper nav .link-wrap .navicon {
+    display: block; } }
+
+.plans {
+  height: 500px;
+  margin-bottom: 100px; }
+  .plans .travel-plan {
+    width: 236px;
+    height: 304px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block; }
+    .plans .travel-plan .card-title {
+      color: #FFF;
+      font-family: "Roboto", sans-serif;
+      font-size: 40px;
+      margin-top: 40px;
+      margin-bottom: 30px; }
+    .plans .travel-plan .card-price {
+      color: #FFF;
+      margin-bottom: 60px;
+      font-size: 25px; }
+  .plans .tour-01 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-01.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg"); }
+  .plans .tour-02 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-02.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: -80px; }
+  .plans .tour-03 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-03.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg"); }
+  .plans .tour-04 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-04.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-04.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-04.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-04.jpg"); }
+  .plans .tour-05 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-05.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-05.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-05.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-05.jpg");
+    margin: 0 35px; }
+  .plans .tour-06 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-06.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-06.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-06.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-06.jpg"); }
+  .plans .tour-07 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-07.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-07.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-07.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-07.jpg"); }
+  .plans .tour-08 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-08.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-08.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-08.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-08.jpg");
+    margin: 0 35px; }
+  .plans .tour-09 {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-09.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-09.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-09.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-09.jpg"); }
+  .plans .travel-button {
+    color: #FFF;
+    font-family: "Lato", sans-serif;
+    font-size: 65%;
+    width: 133px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: #79ADDC;
+    text-decoration: none; }
+
+.booking-form {
+  width: 716px;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  font-family: "Lato", sans-serif; }
+  .booking-form ::-webkit-input-placeholder {
+    font-family: "Lato", sans-serif;
+    font-size: 125%; }
+  .booking-form .people-mobile {
+    display: none; }
+  .booking-form input {
+    padding: 10px;
+    width: 45%;
+    margin-right: 15px;
+    margin-bottom: 13px; }
+  .booking-form label {
+    margin-right: 11px; }
+  .booking-form label[for=checkin] {
+    margin-right: 24px; }
+  .booking-form .form-dates {
+    width: 75%;
+    margin-left: 20px;
+    background-image: url("../../images/calendar-alt-regular.svg");
+    background-position: 98% 50%;
+    background-repeat: no-repeat;
+    background-size: 1.5em; }
+  .booking-form input[type=submit] {
+    margin-top: 10px;
+    width: 92.5%;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    background-color: #79ADDC;
+    color: #FFF;
+    font-size: 65%;
+    border-radius: 15px;
+    height: 60.59px; }
+  .booking-form select {
+    width: 10%;
+    height: 58px;
+    font-family: "Lato", sans-serif;
+    margin: 0 43px;
+    text-indent: 33%; }
+  .booking-form textarea[name=message] {
+    margin-top: 5%;
+    width: 92.5%;
+    height: 192px; }
+  .booking-form textarea::-webkit-input-placeholder {
+    line-height: 2.5em;
+    text-indent: 2%; }
+
+.form-title {
+  font-size: 125%; }
+
+@media (max-width: 1092px) {
+  .plans .travel-plan {
+    margin: auto;
+    width: 100%;
+    margin-bottom: 30px; }
+  .booking-form {
+    margin-top: 500px; }
+    .booking-form h1 {
+      font-size: 100%;
+      text-align: center;
+      margin-right: 75px; }
+    .booking-form .people-mobile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-left: 70px;
+      -webkit-transform: scale(0.85, 0.85);
+      transform: scale(0.85, 0.85);
+      -ms-transform: scale(0.85, 0.85); }
+      .booking-form .people-mobile label {
+        margin-left: 35px; }
+    .booking-form .people-desktop {
+      display: none; }
+    .booking-form input {
+      float: left;
+      width: 45%; }
+    .booking-form .form-mobile {
+      width: 25%;
+      clear: left;
+      margin-left: 250px; }
+    .booking-form .checkin {
+      width: 25%;
+      margin-bottom: 10px;
+      clear: both;
+      margin-left: 250px; }
+    .booking-form .checkout {
+      width: 25%;
+      margin-bottom: 80px;
+      margin-left: 250px; }
+    .booking-form textarea[name=message] {
+      margin-top: 5%;
+      margin-left: 20%;
+      width: 50%;
+      height: 192px; }
+    .booking-form input[type=submit] {
+      margin-top: 5%;
+      margin-left: 20%;
+      width: 50%;
+      height: 50%; }
+    .booking-form select {
+      width: 20%;
+      clear: both;
+      margin-bottom: 25px; }
+    .booking-form .form-title {
+      margin-left: 50px; } }
+
+.footer {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  background-color: #79ADDC;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .footer .logo {
+    width: 96px;
+    height: 42px;
+    margin-left: 5%; }
+  .footer .copyright-info {
+    font-size: 12px;
+    color: #FFF;
+    margin: 0 auto; }
+  .footer .social-media {
+    margin-right: 10%; }
+  .footer .fab {
+    background-color: #79ADDC;
+    color: #FFF;
+    margin-right: 15px;
+    font-size: 1.25em; }
+
+.about {
+  margin-top: 175px;
+  margin-bottom: 100px;
+  width: 85%; }
+  .about h1 {
+    font-size: 2.6em;
+    text-transform: uppercase; }
+  .about hr.about-line {
+    width: 11.5%;
+    height: 4px;
+    background-color: #000;
+    margin-top: -.75em;
+    margin-bottom: 20px; }
+  .about .about-desc {
+    font-size: 16px;
+    margin-bottom: 75px; }
+  .about img {
+    float: left;
+    margin-right: 15px; }
+  .about .c-quotes {
+    font-size: 16px;
+    width: 33.5%;
+    float: left;
+    font-style: italic; }
+  .about .c-name {
+    float: left;
+    margin-top: 120px;
+    margin-left: -120px;
+    color: #79ADDC; }
+  .about .client {
+    float: left;
+    clear: left;
+    margin-bottom: 50px; }
+  .about hr.c-line {
+    width: 16%;
+    height: 4px;
+    background-color: #000;
+    margin-top: -.75em;
+    margin-bottom: 20px; }
+  .about h2 {
+    text-transform: uppercase;
+    font-size: 1.73em; }
+
+.tours-main .tours-header {
+  text-transform: uppercase;
+  width: 981px;
+  height: 200px;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tours-header.jpg");
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tours-header.jpg");
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tours-header.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tours-header.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .tours-main .tours-header .tours-headt {
+    color: #FFF;
+    font-size: 60px;
+    position: absolute;
+    top: 30%;
+    left: 43.5%; }
+
+.tours-main .travel {
+  margin-left: 100px; }
+  .tours-main .travel .row {
+    float: left;
+    clear: left;
+    margin-bottom: 100px; }
+
+@media (max-width: 1092px) {
+  .plans {
+    margin-left: 20%;
+    width: 100%; }
+    .plans .travel-plan {
+      width: 100%;
+      margin-bottom: 30px; } }
+
+.ext-tours {
+  margin-top: 150px;
+  margin-bottom: 50px; }
+  .ext-tours .israel {
+    width: 981px;
+    height: 413px;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-01.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .ext-tours .israel .main-tour-title {
+      font-size: 74px;
+      margin-left: 25px;
+      padding-top: 27px;
+      color: #FFF; }
+    .ext-tours .israel .main-tour-price {
+      font-size: 30px;
+      position: absolute;
+      top: 78%;
+      left: 44.5%;
+      color: #FFF; }
+  .ext-tours .usa {
+    width: 981px;
+    height: 413px;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-02.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .ext-tours .usa .main-tour-title {
+      font-size: 74px;
+      margin-left: 25px;
+      padding-top: 27px;
+      color: #FFF; }
+    .ext-tours .usa .main-tour-price {
+      font-size: 30px;
+      position: absolute;
+      top: 79%;
+      left: 61%;
+      color: #FFF; }
+  .ext-tours .aus {
+    width: 981px;
+    height: 413px;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-03.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .ext-tours .aus .main-tour-title {
+      font-size: 74px;
+      margin-left: 25px;
+      padding-top: 27px;
+      color: #FFF; }
+    .ext-tours .aus .main-tour-price {
+      font-size: 30px;
+      position: absolute;
+      top: 79%;
+      left: 61%;
+      color: #FFF; }
+  .ext-tours .nz {
+    width: 981px;
+    height: 413px;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-04.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-04.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-04.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-04.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .ext-tours .nz .main-tour-title {
+      font-size: 74px;
+      margin-left: 25px;
+      padding-top: 27px;
+      color: #FFF; }
+    .ext-tours .nz .main-tour-price {
+      font-size: 30px;
+      position: absolute;
+      top: 79%;
+      left: 61%;
+      color: #FFF; }
+  .ext-tours .france {
+    width: 981px;
+    height: 413px;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-05.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-05.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-05.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-05.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .ext-tours .france .main-tour-title {
+      font-size: 74px;
+      margin-left: 25px;
+      padding-top: 27px;
+      color: #FFF; }
+    .ext-tours .france .main-tour-price {
+      font-size: 30px;
+      position: absolute;
+      top: 79%;
+      left: 61%;
+      color: #FFF; }
+  .ext-tours .egypt {
+    width: 981px;
+    height: 413px;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-06.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-06.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-06.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-06.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .ext-tours .egypt .main-tour-title {
+      font-size: 74px;
+      margin-left: 25px;
+      padding-top: 27px;
+      color: #FFF; }
+    .ext-tours .egypt .main-tour-price {
+      font-size: 30px;
+      position: absolute;
+      top: 79%;
+      left: 61%;
+      color: #FFF; }
+  .ext-tours .japan {
+    width: 981px;
+    height: 413px;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-07.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-07.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-07.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-07.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .ext-tours .japan .main-tour-title {
+      font-size: 74px;
+      margin-left: 25px;
+      padding-top: 27px;
+      color: #FFF; }
+    .ext-tours .japan .main-tour-price {
+      font-size: 30px;
+      position: absolute;
+      top: 79%;
+      left: 61%;
+      color: #FFF; }
+  .ext-tours .canada {
+    width: 981px;
+    height: 413px;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-08.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-08.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-08.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-08.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .ext-tours .canada .main-tour-title {
+      font-size: 74px;
+      margin-left: 25px;
+      padding-top: 27px;
+      color: #FFF; }
+    .ext-tours .canada .main-tour-price {
+      font-size: 30px;
+      position: absolute;
+      top: 79%;
+      left: 61%;
+      color: #FFF; }
+  .ext-tours .uae {
+    width: 981px;
+    height: 413px;
+    margin-bottom: 50px;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../images/tour/tour-09.jpg");
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-09.jpg");
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-09.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../images/tour/tour-09.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .ext-tours .uae .main-tour-title {
+      font-size: 74px;
+      margin-left: 25px;
+      padding-top: 27px;
+      color: #FFF; }
+    .ext-tours .uae .main-tour-price {
+      font-size: 30px;
+      position: absolute;
+      top: 79%;
+      left: 61%;
+      color: #FFF; }
+  .ext-tours .israel1 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-israel/israel-tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .israel2 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-israel/israel-tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    float: left; }
+  .ext-tours .israel3 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-israel/israel-tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .usa1 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-usa/usa-tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .usa2 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-usa/usa-tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    float: left; }
+  .ext-tours .usa3 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-usa/usa-tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .aus1 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-aus/aus-tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .aus2 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-aus/aus-tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    float: left; }
+  .ext-tours .aus3 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-aus/aus-tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .nz1 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-nz/nz-tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .nz2 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-nz/nz-tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    float: left; }
+  .ext-tours .nz3 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-nz/nz-tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .france1 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-france/france-tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .france2 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-france/france-tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    float: left; }
+  .ext-tours .france3 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-france/france-tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .egypt1 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-egypt/egypt-tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .egypt2 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-egypt/egypt-tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    float: left; }
+  .ext-tours .egypt3 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-egypt/egypt-tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .japan1 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-japan/japan-tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .japan2 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-japan/japan-tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    float: left; }
+  .ext-tours .japan3 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-japan/japan-tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .canada1 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-canada/canada-tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .canada2 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-canada/canada-tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    float: left; }
+  .ext-tours .canada3 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-canada/canada-tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .uae1 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-uae/uae-tour-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+  .ext-tours .uae2 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-uae/uae-tour-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 30px;
+    float: left; }
+  .ext-tours .uae3 {
+    width: 307px;
+    height: 358px;
+    background-image: url("../../images/tour/tour-uae/uae-tour-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left; }
+
+.tours-info {
+  width: 76.6%;
+  margin-bottom: 150px; }
+  .tours-info .tour-days .tour-days-title {
+    color: #000;
+    font-size: 60px; }
+  .tours-info .tour-days .days-line {
+    width: 15%;
+    height: 4px;
+    background-color: #000;
+    margin-top: -.75em;
+    margin-bottom: 20px; }
+  .tours-info .tour-days .tour-text {
+    font-size: 14px;
+    margin-bottom: 60px; }
+
+.book-button {
+  font-family: "Lato", sans-serif;
+  font-size: 65%;
+  width: 133px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  background-color: #79ADDC;
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 45%;
+  margin-bottom: 150px; }
+
+.offers {
+  margin-top: 150px;
+  width: 85%; }
+  .offers .special-header {
+    font-size: 30px; }
+  .offers .special-line {
+    width: 15%;
+    height: 4px;
+    background-color: #000;
+    margin-top: .2em;
+    margin-bottom: 34px; }
+  .offers .place-line {
+    width: 14%;
+    height: 4px;
+    background-color: #000;
+    margin-top: -.5em;
+    margin-bottom: 22px; }
+  .offers .place-line2 {
+    width: 15%;
+    height: 4px;
+    background-color: #000;
+    margin-top: -.5em;
+    margin-bottom: 22px; }
+  .offers .special-image1 {
+    width: 199px;
+    height: 287px;
+    background-image: url("../../images/special-offer-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 20px; }
+  .offers .special-image2 {
+    width: 199px;
+    height: 287px;
+    background-image: url("../../images/special-offer-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 20px; }
+  .offers .special-place {
+    font-size: 28px; }
+  .offers .special-text {
+    font-size: 14px;
+    width: 42%;
+    margin-bottom: 50px; }
+  .offers .discount {
+    float: right;
+    margin-right: 50%;
+    color: #ff7f3b;
+    font-size: 18px; }
+  .offers .special-offer {
+    margin-bottom: 100px; }
+  .offers .special-button {
+    font-family: "Lato", sans-serif;
+    font-size: 65%;
+    width: 100px;
+    height: 30px;
+    border-radius: 18px;
+    padding: 8px 20px;
+    background-color: #79ADDC;
+    color: #FFF;
+    margin-right: 100px;
+    font-size: 45%;
+    text-decoration: none; }
+
+.blog {
+  width: 1000px;
+  margin-top: 150px; }
+  .blog .blog-header {
+    font-size: 30px; }
+  .blog .blog-line {
+    width: 9%;
+    height: 4px;
+    background-color: #000;
+    margin-top: .1em;
+    margin-bottom: 30px; }
+  .blog .date {
+    height: 100%;
+    width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-right: 20px;
+    float: left; }
+    .blog .date .blog-date {
+      width: 60px;
+      height: 60px;
+      background-color: #79ADDC;
+      color: #FFF;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .blog .date .blog-date .day {
+        font-size: 22px;
+        margin-bottom: 0; }
+      .blog .date .blog-date .month {
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 0; }
+  .blog .date2 {
+    height: 100%;
+    width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-right: 100px;
+    float: left; }
+    .blog .date2 .blog-date {
+      width: 60px;
+      height: 60px;
+      background-color: #79ADDC;
+      color: #FFF;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; }
+      .blog .date2 .blog-date .day {
+        font-size: 22px;
+        margin-bottom: 0; }
+      .blog .date2 .blog-date .month {
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-bottom: 0; }
+  .blog .blog-pic {
+    width: 900px;
+    height: 259px;
+    background-image: url("../../images/blog.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-top: -60px;
+    float: right; }
+  .blog .blog-words {
+    margin-top: 320px;
+    margin-left: 90px;
+    height: 100px; }
+  .blog .blog-sub {
+    color: #000;
+    font-size: 12px;
+    margin-top: 20px;
+    height: 100px; }
+  .blog .blog-text {
+    margin-top: 20px;
+    color: #79ADDC;
+    font-size: 12px;
+    width: 38%; }
+
+.contact {
+  width: 1000px;
+  margin-top: 150px; }
+  .contact .contact-header {
+    color: black;
+    font-size: 30px; }
+  .contact .contact-info {
+    margin-top: 300px; }
+  .contact .contact-major {
+    margin-bottom: 460px; }
+  .contact .contact-map {
+    width: 375px;
+    height: 420px;
+    background-image: url("../../images/map.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 40px;
+    float: left; }
+  .contact .contact-button {
+    padding: 10px 25px;
+    background-color: #79ADDC;
+    text-decoration: none;
+    color: #FFF;
+    width: 200px;
+    height: 50px;
+    top: 80%;
+    left: 50%;
+    position: absolute; }
+  .contact .contact-line {
+    width: 13%;
+    height: 4px;
+    background-color: #000;
+    margin-top: -.75em;
+    margin-bottom: 30px; }
+  .contact .contact-comp {
+    margin-bottom: 20px; }
+  .contact form {
+    width: 500px;
+    margin-bottom: 250px; }
+  .contact .contact-form {
+    float: right; }
+    .contact .contact-form input {
+      width: 500px;
+      height: 60px;
+      margin-bottom: 21px; }
