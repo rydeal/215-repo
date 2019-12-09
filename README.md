@@ -14,4 +14,4 @@
 
 ### I added media queries to add a hamburger menu to the navigation and also scale the other elements of the page based on resolution.
 
-[This is the final version of travel-fly.](https://rydeal.github.io/215-repo/homework/travel-fly/index.html))
+[This is the final version of travel-fly.](https://rydeal.github.io/215-repo/homework/travel-fly/pages/index.html)
